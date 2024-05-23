@@ -29,10 +29,10 @@ class ZipRecruiterMain(ZipRecruiterBrowserTools):
         
     def login(self):
         # Once for use name
-        self.text_inputter(By.ID, self.zr_search_strings['login_input'], 'LewsTherinTalmon@gmail.com')
+        self.text_inputter(By.ID, self.zr_search_strings['login_input'], 'xyz@gmail.com')
         
         # Once for password
-        self.text_inputter(By.ID, self.zr_search_strings['password_input'], '#Dwight82')
+        self.text_inputter(By.ID, self.zr_search_strings['password_input'], 'yup')
         
         self.button_clicker(By.ID, self.zr_search_strings['submit_button'])
         
