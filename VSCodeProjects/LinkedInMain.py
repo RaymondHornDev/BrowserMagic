@@ -43,10 +43,10 @@ class LinkedInMain(LinkedInBrowserTools):
         self.driver.get(self.site_urls['linked_in'])
 
         # Locates username text area and enters username
-        self.text_inputter(By.ID, self.li_search_strings['li_user_name_string'], 'LewsTherinTalmon@gmail.com')
+        self.text_inputter(By.ID, self.li_search_strings['li_user_name_string'], 'xyz@gmail.com')
 
         # Locates password text area and enters password
-        self.text_inputter(By.ID, self.li_search_strings['li_find_password_string'], 'Dwight82')
+        self.text_inputter(By.ID, self.li_search_strings['li_find_password_string'], 'nope')
 
         # Locates and clicks button to sign in
         self.button_clicker(By.CSS_SELECTOR, self.li_search_strings['li_sign_in_button_string'])
