@@ -24,7 +24,7 @@ class IndeedBrowserTools(PageTools):
         self.driver.get(self.site_url)
         time.sleep(.25)
         
-        self.text_inputter(By.XPATH, '//input[@type="email"]', 'lewstherintalmon@gmail.com', True)
+        self.text_inputter(By.XPATH, '//input[@type="email"]', 'xyz@gmail.com', True)
             
         self.button_clicker(By.LINK_TEXT, 'Sign in with login code instead')
         
