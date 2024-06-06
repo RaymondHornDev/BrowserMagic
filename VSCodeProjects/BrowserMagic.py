@@ -13,7 +13,8 @@ from LoggerCalls import LoggerCalls
 # List container for driver threads
 thread_list = []
 if __name__ == '__main__':
-        
+
+    # Instanciates a LoggerCalls object    
     lc = LoggerCalls()
     id = IndeedMain(lc)
     li = LinkedInMain(lc)
