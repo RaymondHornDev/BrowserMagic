@@ -37,12 +37,14 @@ class PageTools(BrowserTools):
         """"Waits up to 2 minutes for an element to appear and returns a reference of the element.
             Use only if element's existance is confirmed!!!"""
         try:
+            return_var = None
             if is_single:
-                returnVar = WebDriverWait(self.driver, 120).until(EC.presence_of_element_located((passedBy, passedString)))
-                return returnVar
+                return_var = WebDriverWait(self.driver, 120).until(EC.presence_of_element_located((passedBy, passedString)))
+                # return returnVar
             else:
-                returnVar = WebDriverWait(self.driver, 120).until(EC.presence_of_all_elements_located((passedBy, passedString)))
-                return returnVar
+                return_var = WebDriverWait(self.driver, 120).until(EC.presence_of_all_elements_located((passedBy, passedString)))
+                # return returnVar
+            return return_var
         
         except NoSuchElementException as ve:
             errorReport = f'Error in wait and search {ve}'
