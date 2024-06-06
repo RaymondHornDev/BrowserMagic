@@ -43,6 +43,8 @@ if __name__ == '__main__':
     # Cycles through thread_list and starts each thread
     for item in thread_list:
         item.start()
+
+    # Cycles through thread_list and joins each thread
     for item in thread_list:
         item.join()
         
