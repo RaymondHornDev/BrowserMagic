@@ -4,10 +4,10 @@
 import threading
 
 # Custom imports
-from IndeedMain import IndeedMain
-from LinkedInMain import LinkedInMain
-from ZipRecruiterMain import ZipRecruiterMain
-from LoggerCalls import LoggerCalls
+from SiteMains import IndeedMain
+from SiteMains import LinkedInMain
+from SiteMains import ZipRecruiterMain
+from Logger import LoggerCalls
 
 
 # List container for driver threads
