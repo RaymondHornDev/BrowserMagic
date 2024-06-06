@@ -10,6 +10,7 @@ from ZipRecruiterMain import ZipRecruiterMain
 from LoggerCalls import LoggerCalls
 
 
+# List container for driver threads
 thread_list = []
 if __name__ == '__main__':
         
