@@ -16,6 +16,8 @@ if __name__ == '__main__':
 
     # Instanciates a LoggerCalls object    
     lc = LoggerCalls()
+
+    # Instanciates an IndeedMain object
     id = IndeedMain(lc)
     li = LinkedInMain(lc)
     zr = ZipRecruiterMain(lc)
