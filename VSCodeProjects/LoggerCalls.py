@@ -4,6 +4,7 @@ class LoggerCalls(LT):
     
     def __init__(self):
         super().__init__()
+        ''' Constructor for LoggerCalls '''
         self.logger.info('LoggerCalls object created')
         
     def __del__(self):
