@@ -25,7 +25,8 @@ if __name__ == '__main__':
 
     # Instanciates a ZipRecruiterMain object
     zr = ZipRecruiterMain(lc)
-    
+
+    # Thread targets IndeedMain
     t1 = threading.Thread(target=id.main)
     t2 = threading.Thread(target=li.main)
     t3 = threading.Thread(target=zr.main)
