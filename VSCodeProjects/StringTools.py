@@ -30,5 +30,6 @@ class StringTools:
         'password_input': 'password',
         'submit_button': 'submit_button'
     }
-    
+
+    # Strings for Indeed
     id_search_strings = {}
