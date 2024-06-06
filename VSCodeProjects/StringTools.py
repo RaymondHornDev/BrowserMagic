@@ -21,7 +21,8 @@ class StringTools:
         'li_find_job_list_continer_string':'.reusable-search__entity-result-list',
         'li_find_job_links':'a.app-aware-link'
         }
-    
+
+    # Strings for ZipRecruiter
     zr_search_strings = {
         'sign_in_button' : '.flex.h-full.flex-row.gap-12',
         'loggin_button' : '.flex-row',
