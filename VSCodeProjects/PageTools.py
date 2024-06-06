@@ -40,10 +40,10 @@ class PageTools(BrowserTools):
             return_var = None
             if is_single:
                 return_var = WebDriverWait(self.driver, 120).until(EC.presence_of_element_located((passedBy, passedString)))
-                # return returnVar
+                # return return_var
             else:
                 return_var = WebDriverWait(self.driver, 120).until(EC.presence_of_all_elements_located((passedBy, passedString)))
-                # return returnVar
+                # return return_var
             return return_var
         
         except NoSuchElementException as ve:
