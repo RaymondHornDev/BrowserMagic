@@ -31,6 +31,8 @@ if __name__ == '__main__':
 
     # Thread targets LinkedInMain
     t2 = threading.Thread(target=li.main)
+
+    # Thread targets ZipRecruiterMain
     t3 = threading.Thread(target=zr.main)
     thread_list.append(t1)
     thread_list.append(t2)
