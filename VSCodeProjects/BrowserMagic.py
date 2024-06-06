@@ -22,6 +22,8 @@ if __name__ == '__main__':
 
     # Instanciates a LinkedInMain object
     li = LinkedInMain(lc)
+
+    # Instanciates a ZipRecruiterMain object
     zr = ZipRecruiterMain(lc)
     
     t1 = threading.Thread(target=id.main)
