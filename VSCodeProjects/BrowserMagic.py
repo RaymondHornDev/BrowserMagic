@@ -19,6 +19,8 @@ if __name__ == '__main__':
 
     # Instanciates an IndeedMain object
     id = IndeedMain(lc)
+
+    # Instanciates a LinkedInMain object
     li = LinkedInMain(lc)
     zr = ZipRecruiterMain(lc)
     
