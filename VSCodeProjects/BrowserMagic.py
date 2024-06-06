@@ -28,6 +28,8 @@ if __name__ == '__main__':
 
     # Thread targets IndeedMain
     t1 = threading.Thread(target=id.main)
+
+    # Thread targets LinkedInMain
     t2 = threading.Thread(target=li.main)
     t3 = threading.Thread(target=zr.main)
     thread_list.append(t1)
