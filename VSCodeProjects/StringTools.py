@@ -4,7 +4,8 @@ from dataclasses import dataclass
 @dataclass(frozen=True)
 class StringTools:
     """A collection of string manipulation tools."""
-    
+
+    # Strings for targeted sites
     site_urls = {
         'linked_in':'https://www.linkedin.com',
         'zip_recruiter': 'https://www.ziprecruiter.com/authn/login#intsrc=zr.fe.header_logged_out_homepage',
