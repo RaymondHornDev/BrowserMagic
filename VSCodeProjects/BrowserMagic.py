@@ -39,7 +39,8 @@ if __name__ == '__main__':
     thread_list.append(t1)
     thread_list.append(t2)
     thread_list.append(t3)
-    
+
+    # Cycles through thread_list and starts each thread
     for item in thread_list:
         item.start()
     for item in thread_list:
