@@ -34,6 +34,8 @@ if __name__ == '__main__':
 
     # Thread targets ZipRecruiterMain
     t3 = threading.Thread(target=zr.main)
+
+    # Adds the threads to the thread_list
     thread_list.append(t1)
     thread_list.append(t2)
     thread_list.append(t3)
