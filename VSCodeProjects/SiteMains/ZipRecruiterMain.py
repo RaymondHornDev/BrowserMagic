@@ -2,7 +2,7 @@
 from selenium.webdriver.common.by import By
 
 # Custom imports
-from SiteTools.ZipRecruiterBrowserTools import ZipRecruiterBrowserTools
+from SiteMains.SiteTools.ZipRecruiterBrowserTools import ZipRecruiterBrowserTools
 
 class ZipRecruiterMain(ZipRecruiterBrowserTools):
     def __init__(self, passedLogger):

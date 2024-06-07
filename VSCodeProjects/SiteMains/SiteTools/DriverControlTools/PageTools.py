@@ -9,7 +9,7 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import time
 
 # Custom modules
-from DriverControlTools.BrowserTools import BrowserTools
+from SiteMains.SiteTools.DriverControlTools.BrowserTools import BrowserTools
 
 
 class PageTools(BrowserTools):

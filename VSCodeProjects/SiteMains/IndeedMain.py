@@ -1,4 +1,4 @@
-from SiteTools.IndeedBrowserTools import IndeedBrowserTools
+from SiteMains.SiteTools.IndeedBrowserTools import IndeedBrowserTools
 
 class IndeedMain(IndeedBrowserTools):
     def __init__(self, passedLogger):

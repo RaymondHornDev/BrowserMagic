@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 import time
 
 #Custom imports
-from SiteTools import LinkedInBrowserTools
+from SiteMains.SiteTools.LinkedInBrowserTools import LinkedInBrowserTools
 from StringTools import StringTools
 
 

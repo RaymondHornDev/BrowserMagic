@@ -6,7 +6,7 @@ import time
 
 #Custom imports
 from ABTools.AbstractTool import AbstractSortingTools
-from DriverControlTools.PageTools import PageTools
+from SiteMains.SiteTools.DriverControlTools.PageTools import PageTools
 
 #LinkedIn specific browser tools
 class LinkedInBrowserTools(PageTools, AbstractSortingTools):
