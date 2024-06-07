@@ -25,16 +25,26 @@ if __name__ == '__main__':
 
     # Instanciates a ZipRecruiterMain object
     zr = ZipRecruiterMain(lc)
-    
+
+    # Thread targets IndeedMain
     t1 = threading.Thread(target=id.main)
+
+    # Thread targets LinkedInMain
     t2 = threading.Thread(target=li.main)
+
+    # Thread targets ZipRecruiterMain
     t3 = threading.Thread(target=zr.main)
+
+    # Adds the threads to the thread_list
     thread_list.append(t1)
     thread_list.append(t2)
     thread_list.append(t3)
-    
+
+    # Cycles through thread_list and starts each thread
     for item in thread_list:
         item.start()
+
+    # Cycles through thread_list and joins each thread
     for item in thread_list:
         item.join()
         
