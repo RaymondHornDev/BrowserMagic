@@ -4,9 +4,7 @@
 import threading
 
 # Custom imports
-from SiteMains import IndeedMain
-from SiteMains import LinkedInMain
-from SiteMains import ZipRecruiterMain
+from SiteMains import IndeedMain, LinkedInMain, ZipRecruiterMain
 from Logger import LoggerCalls
 
 
