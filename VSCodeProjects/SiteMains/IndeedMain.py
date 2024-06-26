@@ -2,6 +2,7 @@ from SiteMains.SiteTools.IndeedBrowserTools import IndeedBrowserTools
 
 class IndeedMain(IndeedBrowserTools):
     def __init__(self, passedLogger):
+        ''' Indeed Main constructor '''
         super().__init__(passedLogger)
         self.logger.info_call('IndeedMain object created')
         
