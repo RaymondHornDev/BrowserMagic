@@ -51,7 +51,6 @@ if __name__ == '__main__':
 Nick Nack
 Nick Nack
 Nick Nack
-Nick Nack
     
 lc = LoggerCalls()
 id = IndeedMain(lc)
