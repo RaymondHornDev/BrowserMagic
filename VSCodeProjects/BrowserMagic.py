@@ -49,7 +49,6 @@ if __name__ == '__main__':
     lc.info_call('Finished')
 '''
 Nick Nack
-Nick Nack
     
 lc = LoggerCalls()
 id = IndeedMain(lc)
